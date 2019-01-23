@@ -1,0 +1,9 @@
+[package]
+name = "qs-font-repro"
+version = "0.1.0"
+authors = ["Tomas Sedovic <tomas@sedovic.cz>"]
+edition = "2018"
+
+[dependencies]
+quicksilver = { path = "/home/thomas/code/quicksilver", default-features = false, features = ["collisions", "complex_shapes", "immi_ui", "fonts", "saving", "rodio"] }
+#quicksilver = { version = "*", default-features = false, features = ["collisions", "complex_shapes", "immi_ui", "fonts", "saving", "rodio"] }
